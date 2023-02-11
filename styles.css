@@ -13,9 +13,7 @@
 
 nav{
     display: flex;
-    width: 80%;
-    width: 200px;
-    height: 200px;
+    width: 84%;
     margin: auto;
     padding: 20px 0;
     align-items: center;
@@ -75,4 +73,13 @@ span{
     position: absolute;
     bottom: 0;
     right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform; translateX(-50%);
+    transition: bottom 1s, left 1s;
 }
