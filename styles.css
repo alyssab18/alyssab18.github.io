@@ -67,6 +67,12 @@ span{
     border-radius: 5px;
 }
 
+.detel a:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255, 40, 183);
+    cursor: pointer;
+}
+
 .images{
     width: 45%;
     height: 80%;
