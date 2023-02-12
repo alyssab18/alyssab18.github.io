@@ -130,3 +130,14 @@ span{
     overflow: hidden;
     text-align: center;
 }
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: rgb(255, 219, 237);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
