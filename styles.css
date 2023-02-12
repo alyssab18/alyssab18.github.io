@@ -80,6 +80,20 @@ span{
     position: absolute;
     left: 50%;
     bottom: 0;
-    transform; translateX(-50%);
+    transform: translateX(-50%);
     transition: bottom 1s, left 1s;
+}
+
+.about-text{
+    width: 550px;
+    color:rgb(255, 40, 183);
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
