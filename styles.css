@@ -155,3 +155,9 @@ h5{
     flex-direction: column;
     justify-content: center;
 }
+.contact p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
