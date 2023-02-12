@@ -76,6 +76,12 @@ span{
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
 }
+
+.portfolio{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: black;
+}
 .about-text{
     width: 550px;
 }
@@ -85,24 +91,23 @@ span{
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
 }
 .about-text h2{
     color:rgb(255, 40, 183);
     font-size: 50px;
-    text-transform: capitalize;
-    margin-bottom: 20px;
-    align-items: center;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
 }
 .about-text p{
-    color:#000;
+    color:rgb(255, 219, 237);
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
 }
 .hobbies{
-    background: #101010;
+    background: black;
     width: 100%;
     padding: 100px 0px;
 }
