@@ -73,12 +73,20 @@ span{
     cursor: pointer;
 }
 
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
 .images img{
     height: 100%;
     position: absolute;
     left: 60%;
     bottom: 0;
     transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
 }
 
 .about-text{
@@ -96,7 +104,7 @@ span{
 
 .about-text h2{
     color:rgb(255, 40, 183);
-    font-size: 75px;
+    font-size: 50px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
