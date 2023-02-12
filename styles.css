@@ -86,7 +86,6 @@ span{
 
 .about-text{
     width: 550px;
-    color:rgb(255, 40, 183);
 }
 
 .main{
@@ -96,4 +95,11 @@ span{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.about-text h2{
+    color:rgb(255, 40, 183);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
 }
