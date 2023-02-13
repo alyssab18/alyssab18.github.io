@@ -76,11 +76,14 @@ span{
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
 }
-
 .portfolio{
     width: 100%;
     padding: 10px 0px;
     background-color: black;
+}
+.portfolio img{
+    height: auto;
+    width: 430px;
 }
 .about-text{
     width: 550px;
@@ -91,13 +94,13 @@ span{
     margin: 0 auto;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 .about-text h2{
     color:rgb(255, 40, 183);
     font-size: 50px;
-    width: 1130px;
-    margin: 30px auto;
-    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
 }
 .about-text p{
     color:rgb(255, 219, 237);
